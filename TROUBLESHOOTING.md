@@ -32,11 +32,11 @@ npm i @sap/cds-dk && npm i @sap/cds && npm update
 
 Verify your cds version again with ```cds -v```.
 
-## Issue: BusinessPartner search help on object page not working due to odata count=true
+## Issue: BusinessPartner search help on object page not working due to odata count=true - OK
 
 If your business partner search help is not working on the object page, then this is due to an issue with an OData parameter in the query.
 
-### Solution:
+### Solution: 
 
 In `risk-service.js` adjust the event handler as follows:
 
@@ -58,7 +58,7 @@ In `risk-service.js` adjust the event handler as follows:
     });
 ```
 
-## Issue: NPM can't finde a package / npm package not in registry
+## Issue: NPM can't finde a package / npm package not in registry - OK
 
 If you see an error like this in the SAP Business Application Studio for any of the required packages, then please follow the steps below:
 
@@ -80,7 +80,7 @@ npm config set registry http://registry.npmjs.org/
 npm install
 ```
 
-## Issue: Approuter invalid redirect_uri:
+## Issue: Approuter invalid redirect_uri: - OK
 
 **SAP NOTE**: https://launchpad.support.sap.com/#/notes/2864831
 
